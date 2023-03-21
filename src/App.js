@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-        <div className="Result">{affichage}</div>
+        <div className="Result">{affichage?affichage:"afficher calcul"}</div>
         <div className="Container">
             <PaveNumeric affichage={affichage} setAffichage={setAffichage} newSaisie={newSaisie} setNewSaisie={setNewSaisie}></PaveNumeric>
 
