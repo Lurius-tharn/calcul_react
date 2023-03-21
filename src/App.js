@@ -7,7 +7,7 @@ import {PaveOperation} from "./components/PaveOperation";
 
 function App() {
 
-  const [affichage, setAffichage] = useState("0")
+  const [affichage, setAffichage] = useState("")
     const [newSaisie, setNewSaisie] = useState(false)
 
 
